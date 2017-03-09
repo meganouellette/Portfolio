@@ -1,0 +1,43 @@
+different color schemes to try
+
+1:
+#96858f
+#6d7993
+#909942
+#d5d5d5
+
+********(using) 2:
+		#d7cec7
+		#565656
+		#76323f
+		#c09f80
+
+3:
+#77c9d4
+#57bc90
+#015249
+#a5a5af
+
+4:
+#0f1626
+#ab987a
+#ff533d
+#f5f5f5
+
+5:
+#b56357
+#b4dbc0
+#eae3ea
+#a7b3a5
+
+6:
+#99d3df
+#88bbd6
+#cdcdcd
+#e9e9e9
+
+7:
+#1d2120
+#5a5c51
+#ba9077
+#bcd5d1

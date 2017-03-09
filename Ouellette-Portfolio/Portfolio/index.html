@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Megan Ouellette</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+
+
+
+
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" delay=0.3 href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" delay=0.5 href="#download">Download Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" delay=0.9 href="#skills">Skills</a>
+                    </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+<div id="home"class="container-fluid bg-1 text-center">
+  <h3>Megan Ouellette</h3>
+  <br>
+<img src="images/logo.jpg" class="img-circle" alt="Bg">
+<br>
+  <h3>Bay Path Regional Vocational Technical High School</h3>
+  <h4>Programming &#38; Web Development</h4>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+
+ <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                <br>
+                    
+                    <h2>Download Portfolio</h2>
+                    <br>
+                    <p>Clicking the button below allows you to download my resume</p>
+                    <br>
+                    <a href="download/MeganOuellette_Resume.zip" class="btn btn-default btn-lg">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+
+<div id="skills" class="container-fluid bg-3 text-center"> 
+  <h3>Skills</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Java  &#8208; a programming language that developers use to create applications on your computer.</p>
+      <br>
+      <img src="images/java.png" alt="Image" width="200" height="112">
+    </div>
+    <div class="col-sm-4">
+      <p>HTML &#8208; a standard for describing the structure and presentation of information via the Internet.</p>
+      <p>CSS &#8208; A style sheet is the encapsulation of style rules in a centralized location, either in the head section of the HTML document or in a separate linked file.</p>
+      <br>
+      <img src="images/html-css.png" alt="Image" width="200" height="100">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Ruby on Rails &#8208; a web application development framework written in the Ruby language. It is designed to make programming web applications easier by making assumptions about what every developer needs to get started.</p>
+      <img src="images/rails.png" alt="Image" width="150" height="178">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container-fluid bg-4 text-center"> 
+
+<h3>Bay Path Regional Vocational Technical High School</h3>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(42.13342660000001,-71.95643519999999),
+    zoom:16,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJwlQ92p7rfmQs4Ox2aVP5LBWjpIJxpIM&callback=myMap"></script>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
